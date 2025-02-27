@@ -1,3 +1,6 @@
+import torch
+torch.classes.__path__ = []
+
 import streamlit as st
 import torch
 import pickle
