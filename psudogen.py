@@ -1,8 +1,13 @@
+import os
+import shutil
+
+hub_cache = os.path.expanduser("~/.cache/torch/hub")
+if os.path.exists(hub_cache):
+    shutil.rmtree(hub_cache)
 import torch
 torch.classes.__path__ = []
 
 import streamlit as st
-import torch
 import pickle
 import re
 import math
