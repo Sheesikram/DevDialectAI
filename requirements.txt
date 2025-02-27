@@ -1,3 +1,8 @@
 streamlit
 torch
 pickle5
+streamlit
+torchvision==0.15.2+cpu
+torchaudio==2.0.2
+--find-links https://download.pytorch.org/whl/cpu
+
